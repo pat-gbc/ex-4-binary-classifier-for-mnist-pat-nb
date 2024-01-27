@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "layered_model_test.py",
+      "setup": "sudo -H pip3 install pytest tensorflow-cpu",
+      "run": "pytest layered_model_test.py",
+      "input": null,
+      "output": null,
+      "comparison": "exact",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
